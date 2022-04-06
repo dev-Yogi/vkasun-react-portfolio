@@ -1,7 +1,7 @@
 {
-  "name": "vkasun",
+  "name": "vkasun-react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://kizou.org",
+  "homepage": "build",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.5.0",
