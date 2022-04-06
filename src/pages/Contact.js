@@ -25,7 +25,7 @@ const Contact = () => {
         </button>
         <button className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
           <a href="tel:402-699-8781">
-            <code>Send a text</code>
+            <code>Call</code>
           </a>
         </button>
       </div>

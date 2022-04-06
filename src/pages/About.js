@@ -1,18 +1,18 @@
 import React from "react";
 import { IdentificationIcon } from "@heroicons/react/solid";
 
-const SpringbootLogo = require("../assets/logos/PythonLogo.png");
+const SpringBootLogo = require("../assets/logos/SpringBootLogo.jpeg");
 const ReactLogo = require("../assets/logos/ReactLogo.png");
 const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
 const JsLogo = require("../assets/logos/JsLogo.png");
-const NextLogo = require("../assets/logos/NextLogo.png");
+const ExpressLogo = require("../assets/logos/ExpressLogo.png");
 const TailwindLogo = require("../assets/logos/TailwindLogo.png");
 const SqlLogo = require("../assets/logos/SqlLogo.png");
 const ReduxLogo = require("../assets/logos/ReduxLogo.png");
-const JavaLogo = require("../assets/logos/FirebaseLogo.png");
+const JavaLogo = require("../assets/logos/JavaLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
-const WordPressLogo = require("../assets/logos/DockerLogo.png");
+const WordPressLogo = require("../assets/logos/WordPressLogo.png");
 
 const About = () => {
   return (
@@ -46,8 +46,8 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={NextLogo}
-                alt="Next Logo"
+                src={ExpressLogo}
+                alt="Express Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Express.js</code>
@@ -86,7 +86,7 @@ const About = () => {
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={SpringbootLogo}
+                src={SpringBootLogo}
                 alt="Spring Boot Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
