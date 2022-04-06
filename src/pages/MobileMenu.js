@@ -15,7 +15,7 @@ const MobileMenu = () => {
   const projects = [
     {
       name: "First Project",
-      href: "#",
+      href: "../../../first/src/index.tsx",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
