@@ -1,7 +1,7 @@
 {
     "name": "vkasun-react-app",
     "version": "0.1.0",
-    "homepage": "/",
+    "homepage": "src/index.js",
     "private": true,
     "dependencies": {
         "@headlessui/react": "^1.5.0",
