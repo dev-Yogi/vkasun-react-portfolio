@@ -19,7 +19,7 @@ const Resume = () => {
       <div className="text-[#a2aabc] text-lg mt-5">
         <div className="flex flex-row">
           <div className="w-1/4">
-            <code className="text-yellow_vs">Education</code>
+            <code className="text-yellow_vs mr-12">Education</code>
           </div>
           <div className="w-3/4">
             <code className="text-blue_vs">Metropolitan Community College</code>
@@ -39,7 +39,7 @@ const Resume = () => {
         </div>
         <div className="flex flex-row pt-12">
           <div className="w-1/4">
-            <code className="text-yellow_vs text-xl font-bold underline">Work</code>
+            <code className="text-yellow_vs text-xl underline">Work</code>
           </div>
           <div className="w-3/4">
             <code className="text-blue_vs">WordPress Web Developer</code>
@@ -51,26 +51,29 @@ const Resume = () => {
             <br />
             <code className="text-xs text-brown_vs">• March 2022 - Present</code>
             <br />
+            <br />
             <code className="text-sm">
-              <br />• Build website using Wordpress.
-              <br />• Prepare website proposals to present to clients.
-              <br />• Provide technical support to clients.
-              <br />• Write coding using HTML, CSS, &amp; JavaScript.
-              <br />• Maintain and make updates to PHP code.
-              <br />• Design new features for existing websites.
-              <br />• Customize themes to meet clients’ requirements.
-              <br />• Manage a user guide to help clients understand site features and management of website to increase visitor satisfaction.
-              <br />• Work on a new mobile development project to expand the company into mobile website development services.
-              <br />• Act as the company expert in creating e-commerce to be integrated with new website builds.
+              <ul className="list-disc">
+                <li>Build website using Wordpress.</li>
+                <li>Prepare website proposals to present to clients.</li>
+                <li>Provide technical support to clients.</li>
+                <li>Write coding using HTML, CSS, &amp; JavaScript.</li>
+                <li>Maintain and make updates to PHP code.</li>
+                <li>Design new features for existing websites.</li>
+                <li>Customize themes to meet clients’ requirements.</li>
+                <li> Manage a user guide to help clients understand site features and management of website to increase visitor satisfaction.</li>
+                <li>Work on a new mobile development project to expand the company into mobile website development services.</li>
+                <li>Act as the company expert in creating e-commerce to be integrated with new website builds.</li>
+                </ul>
             </code>
           </div>
         </div>
 
-        <div className="flex flex-row pt-10">
+        <div className="flex flex-row flex-wrap pt-15">
           <div className="w-1/4">
             <code className="text-yellow_vs "></code>
           </div>
-          <div className="w-3/4 px-5">
+          <div className="w-3/4 mt-12 px-5">
             <code className="text-blue_vs">Software Engineer, <br/>
            Code Instructor &amp; Manager</code>
             <br />
@@ -142,7 +145,7 @@ const Resume = () => {
         </button>
         </div>
         
-        <div className="flex flex-row pt-10 flex-wrap">
+        <div className="flex flex-row pt-15 flex-wrap">
           <div className="w-1/4">
             <code className="text-yellow_vs">Skills</code>
           </div>
