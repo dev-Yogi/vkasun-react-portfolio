@@ -1,7 +1,7 @@
 {
     "name": "vkasun-react-app",
     "version": "0.1.0",
-    "homepage": "src/index.js",
+    "homepage": "http://kizou.org",
     "private": true,
     "dependencies": {
         "@headlessui/react": "^1.5.0",
