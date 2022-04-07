@@ -94,11 +94,8 @@ const Resume = () => {
             <code className="text-sm"></code>
             <br />
             <code className="text-sm">
-              <br />• Developing and maintaining AIM’s technology platform.
-              <br />• Teaching students enrolled in AIM technical courses and programs.
-              <br />• Managing all other instructors.
-              <br />• Work with Grants Officer personnel to provide them course information needed for accreditation.
-              <br />• The Managing Instructor will work with the President and CEO - and the AIM curriculum committee -  to define what courses are needed in order to better operate the school and deliver successful courses.
+              <br />• Developing, creating, and modifying general and enterprise computer applications and software for specialized utility programs as well as analyzing user needs and developing software solutions under minimal supervision.
+              <br />• Design software or customize software for client use with the aim of optimizing operational efficiency as well as analyze and design databases within an application, working individually or coordinating database development as part of a team.
               <br />• Design and/or code applications, following specifications and using the appropriate tools.
               <br />• Maintain and modify existing applications as well as perform maintenance programming for existing versions.
               <br />• Perform custom programming and assume responsibility for ongoing data architecture for products.
