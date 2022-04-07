@@ -8,7 +8,7 @@ const JsLogo = require("../assets/logos/JsLogo.png");
 const ExpressLogo = require("../assets/logos/ExpressLogo.png");
 const TailwindLogo = require("../assets/logos/TailwindLogo.png");
 const SqlLogo = require("../assets/logos/SqlLogo.png");
-const ReduxLogo = require("../assets/logos/ReduxLogo.png");
+const NetlifyLogo = require("../assets/logos/ReduxLogo.png");
 const JavaLogo = require("../assets/logos/JavaLogo.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const NodeJSLogo = require("../assets/logos/NodeJSLogo.png");
@@ -78,11 +78,11 @@ const About = () => {
             </div>
             <div className="flex flex-row mb-3">
               <img
-                src={ReduxLogo}
-                alt="Redux Logo"
+                src={NetlifyLogo}
+                alt="NetlifyLogo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
-              <code>Redux</code>
+              <code>Netlify</code>
             </div>
             <div className="flex flex-row  mb-3">
               <img
