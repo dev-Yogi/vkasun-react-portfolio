@@ -1,5 +1,5 @@
 {
-    "name": "vkasun-react-portfolio",
+    "name": "vkasun-react-app",
     "version": "0.1.0",
     "homepage": "/",
     "private": true,
@@ -22,11 +22,15 @@
         "tailwindcss": "^3.0.23"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "node server.js",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
+    "engines": {
+        "node": "16.5.0"
+    },
+
     "eslintConfig": {
         "extends": [
             "react-app",
