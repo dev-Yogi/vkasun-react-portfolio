@@ -15,7 +15,7 @@ const LeftBar = () => {
 
   const WebList = () => (
     <div>
-      <a href="../../../../../XAMPP/xamppfiles/htdocs/lfd/index.php">
+      <a href="/">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={JSIcon}
@@ -98,13 +98,7 @@ const LeftBar = () => {
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
-              <img
-                src={KaggleLogo}
-                alt="Kaggle Logo"
-                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
-              />
-            </a>
+       
             <a href="https://www.linkedin.com/in/vanessa-kasun-15393a139/">
               <img
                 src={LinkedinLogo}
