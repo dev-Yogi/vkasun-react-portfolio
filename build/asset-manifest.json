@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6816b616.css",
-    "main.js": "/static/js/main.366dd5c8.js",
-    "static/js/787.1234c6d4.chunk.js": "/static/js/787.1234c6d4.chunk.js",
-    "static/media/SqlLogo.png": "/static/media/SqlLogo.85fb38d6773862e917f4.png",
-    "static/media/MongoDBLogo.png": "/static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
-    "static/media/JavaLogo.png": "/static/media/JavaLogo.fdabd4e11f1235e4e8e0.png",
-    "static/media/NodeJSLogo.png": "/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
-    "static/media/ReactLogo.png": "/static/media/ReactLogo.37940586dd863909ffca.png",
-    "static/media/TailwindLogo.png": "/static/media/TailwindLogo.36b2728bf0d14b7b7576.png",
-    "static/media/WordPressLogo.png": "/static/media/WordPressLogo.99e99c322de53ffb621e.png",
-    "static/media/TypescriptLogo.png": "/static/media/TypescriptLogo.c4105801aadf2606ac30.png",
-    "static/media/SpringBootLogo.jpeg": "/static/media/SpringBootLogo.48151fa7453cff300ac0.jpeg",
-    "static/media/ReduxLogo.png": "/static/media/ReduxLogo.296b9306ae3e4de348c6.png",
-    "static/media/ExpressLogo.png": "/static/media/ExpressLogo.9b344d7469dbbdc76754.png",
-    "static/media/JsLogo.png": "/static/media/JsLogo.db393457bf6303d846d6.png",
-    "index.html": "/index.html",
-    "main.6816b616.css.map": "/static/css/main.6816b616.css.map",
-    "main.366dd5c8.js.map": "/static/js/main.366dd5c8.js.map",
-    "787.1234c6d4.chunk.js.map": "/static/js/787.1234c6d4.chunk.js.map"
+    "main.css": "/src/index.js/static/css/main.6816b616.css",
+    "main.js": "/src/index.js/static/js/main.e9bf2982.js",
+    "static/js/787.a80ded86.chunk.js": "/src/index.js/static/js/787.a80ded86.chunk.js",
+    "static/media/SqlLogo.png": "/src/index.js/static/media/SqlLogo.85fb38d6773862e917f4.png",
+    "static/media/MongoDBLogo.png": "/src/index.js/static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
+    "static/media/JavaLogo.png": "/src/index.js/static/media/JavaLogo.fdabd4e11f1235e4e8e0.png",
+    "static/media/NodeJSLogo.png": "/src/index.js/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
+    "static/media/ReactLogo.png": "/src/index.js/static/media/ReactLogo.37940586dd863909ffca.png",
+    "static/media/TailwindLogo.png": "/src/index.js/static/media/TailwindLogo.36b2728bf0d14b7b7576.png",
+    "static/media/WordPressLogo.png": "/src/index.js/static/media/WordPressLogo.99e99c322de53ffb621e.png",
+    "static/media/TypescriptLogo.png": "/src/index.js/static/media/TypescriptLogo.c4105801aadf2606ac30.png",
+    "static/media/SpringBootLogo.jpeg": "/src/index.js/static/media/SpringBootLogo.48151fa7453cff300ac0.jpeg",
+    "static/media/ReduxLogo.png": "/src/index.js/static/media/ReduxLogo.296b9306ae3e4de348c6.png",
+    "static/media/ExpressLogo.png": "/src/index.js/static/media/ExpressLogo.9b344d7469dbbdc76754.png",
+    "static/media/JsLogo.png": "/src/index.js/static/media/JsLogo.db393457bf6303d846d6.png",
+    "index.html": "/src/index.js/index.html",
+    "main.6816b616.css.map": "/src/index.js/static/css/main.6816b616.css.map",
+    "main.e9bf2982.js.map": "/src/index.js/static/js/main.e9bf2982.js.map",
+    "787.a80ded86.chunk.js.map": "/src/index.js/static/js/787.a80ded86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6816b616.css",
-    "static/js/main.366dd5c8.js"
+    "static/js/main.e9bf2982.js"
   ]
 }
