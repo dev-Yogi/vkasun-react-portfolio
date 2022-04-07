@@ -15,7 +15,7 @@ const LeftBar = () => {
 
   const WebList = () => (
     <div>
-      <a href="/">
+      <a href="../../../../../XAMPP/xamppfiles/htdocs/lfd">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
             src={JSIcon}
