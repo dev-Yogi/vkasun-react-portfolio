@@ -9,9 +9,10 @@ import { Disclosure, Transition } from "@headlessui/react";
 
 
 
+
 const JSIcon = require("../assets/icons/JSIcon.png");
 const TSIcon = require("../assets/icons/TSIcon.png");
-
+const WordPressIcon = require("../assets/logos/WordPressLogo.png");
 
 
 const MobileMenu = () => {
@@ -20,8 +21,8 @@ const MobileMenu = () => {
       name: "First Project",
       href: "/",
       icon: <img
-      src={JSIcon}
-      alt="JS Icon"
+      src={WordPressIcon}
+      alt="WordPress"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
       current: true,
