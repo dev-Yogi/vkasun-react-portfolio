@@ -147,7 +147,7 @@ const MobileMenu = () => {
                       <Disclosure.Button
                         key={item.name}
                         as="Link"
-                        href={item.href}
+                        to={item.href}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
