@@ -20,7 +20,7 @@ const About = () => {
   return (
     <React.Fragment>
  
-     <Link to='/'>Back</Link>
+     <Link className="visible sm:invisible"to='/'>Back</Link>
     
 
     <div
