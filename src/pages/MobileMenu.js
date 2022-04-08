@@ -146,7 +146,7 @@ const MobileMenu = () => {
                   ? projects.map((item) => (
                       <Disclosure.Button
                         key={item.name}
-                        as="a"
+                        as="Link"
                         href={item.href}
                         className={classNames(
                           item.current
