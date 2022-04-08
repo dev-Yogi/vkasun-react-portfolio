@@ -1,6 +1,7 @@
 import React from "react";
 import { IdentificationIcon } from "@heroicons/react/solid";
 
+
 const SpringBootLogo = require("../assets/logos/SpringBootLogo.jpeg");
 const ReactLogo = require("../assets/logos/ReactLogo.png");
 const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
@@ -16,6 +17,12 @@ const WordPressLogo = require("../assets/logos/WordPressLogo.png");
 
 const About = () => {
   return (
+    <React.Fragment>
+    <button className="visible sm:invisible border border-lightblue_vs text-lightblue_vs mt-5 p-1 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
+          <a href="/">
+            <code>Back</code>
+          </a>
+        </button>
     <div
       id="About"
       className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justify"
@@ -136,6 +143,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </React.Fragment>
   );
 };
 

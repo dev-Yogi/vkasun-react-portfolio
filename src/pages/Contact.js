@@ -1,8 +1,11 @@
 import React from "react";
 import { MailIcon } from "@heroicons/react/solid";
 
+
 const Contact = () => {
   return (
+    <React.Fragment>
+
     <div id="Contact" className="pb-72 mt-36">
       <div className="table mx-12 lg:mx-60">
         <MailIcon className="h-5 w-5 mr-4 text-yellow_vs" />
@@ -30,6 +33,7 @@ const Contact = () => {
         </button>
       </div>
     </div>
+    </React.Fragment>
   );
 };
 

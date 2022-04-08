@@ -7,14 +7,18 @@ import {
 } from "@heroicons/react/solid";
 import { Disclosure, Transition } from "@headlessui/react";
 
+
+
 const JSIcon = require("../assets/icons/JSIcon.png");
 const TSIcon = require("../assets/icons/TSIcon.png");
+
+
 
 const MobileMenu = () => {
   const projects = [
     {
       name: "First Project",
-      href: "../../../first/src/index.tsx",
+      href: "/",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
@@ -24,7 +28,7 @@ const MobileMenu = () => {
     },
     {
       name: "Second Project",
-      href: "#",
+      href: '',
       icon:  <img
       src={TSIcon}
       alt="TS Icon"
@@ -53,12 +57,60 @@ const MobileMenu = () => {
       current: false,
     },
   ];
+
+  const tabs = [
+    {
+      name: "Home",
+      href: "/",
+      icon: <img
+      src={JSIcon}
+      alt="JS Icon"
+      className="w-7 mr-1  ml-5 text-yellow_vs"
+    />,
+      current: true,
+    },
+    {
+      name: "About",
+      href: '/about',
+      icon:  <img
+      src={TSIcon}
+      alt="TS Icon"
+      className="w-7 mr-1  ml-5 text-yellow_vs"
+    />,
+      current: false,
+    },
+    {
+      name: "Resume",
+      href: '/resume',
+      icon: <img
+      src={JSIcon}
+      alt="JS Icon"
+      className="w-7 mr-1  ml-5 text-yellow_vs"
+    />,
+      current: false,
+    },
+    {
+      name: "Contact",
+      href: '/contact',
+      icon: <img
+      src={JSIcon}
+      alt="JS Icon"
+      className="w-7 mr-1  ml-5 text-yellow_vs"
+    />,
+      current: false,
+    },
+  ];
+
+  
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
   const [showProjectsList, SetShowProjectsList] = useState(true);
-
+  const [showTabs, setShowTabs] = useState(true);
   return (
+
+    <React.Fragment>
+    
     <Disclosure>
       {({ open }) => (
         <>
@@ -112,12 +164,57 @@ const MobileMenu = () => {
                     ))
                   : null}
               </code>
+            
             </Disclosure.Panel>
+            <Disclosure.Panel className="">
+              <code className="px-2 pt-2 pb-3 space-y-1 text-white">
+                <div
+                  className="mb-2 ml-4 font-bold flex text-xl"
+                  onClick={() => setShowTabs(!showTabs)}
+                >
+                  {showTabs ? (
+                    <ChevronDownIcon className="w-7 mr-4" />
+                  ) : (
+                    <ChevronRightIcon className=" w-7 mr-4 " />
+                  )}
+                  Pages :
+                </div>
+                {showTabs
+                  ? tabs.map((item) => (
+                      <Disclosure.Button
+                        key={item.name}
+                        as="a"
+                        href={item.href}
+                        className={classNames(
+                          item.current
+                            ? "bg-gray-900 text-white"
+                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                          "block px-3 py-2 rounded-md text-base font-medium"
+                        )}
+                        aria-current={item.current ? "page" : undefined}
+                      >
+                        <div className="flex ml-6">
+                          {item.icon}
+                          {item.name}
+                        </div>
+                      </Disclosure.Button>
+                    ))
+                  : null}
+              </code>
+            
+            </Disclosure.Panel>
+           
           </Transition>
         </>
       )}
     </Disclosure>
+   
+       
+    </React.Fragment>
+    
   );
 };
 
 export default MobileMenu;
+
+

@@ -1,8 +1,12 @@
 import React from "react";
 import { ClipboardListIcon } from "@heroicons/react/solid";
 
+
 const Resume = () => {
   return (
+    <React.Fragment>
+
+   
     <div
       id="Resume"
       className="lg:w-1/2 mt-64 mb-4 text-justify mx-12 lg:mr-60 lg:ml-auto"
@@ -173,6 +177,7 @@ const Resume = () => {
         </div>
       </div>
     </div>
+    </React.Fragment>
   );
 };
 
