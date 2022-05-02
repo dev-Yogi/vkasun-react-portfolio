@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <React.Fragment>
 
-      <div>This is a tag</div>
+
 
     <div id="Contact" className="pb-72 mt-36">
       <div className="table mx-12 lg:mx-60">
