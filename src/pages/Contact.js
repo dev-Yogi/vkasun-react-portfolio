@@ -6,6 +6,8 @@ const Contact = () => {
   return (
     <React.Fragment>
 
+      <div>This is a tag</div>
+
     <div id="Contact" className="pb-72 mt-36">
       <div className="table mx-12 lg:mx-60">
         <MailIcon className="h-5 w-5 mr-4 text-yellow_vs" />
