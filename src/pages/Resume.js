@@ -86,7 +86,7 @@ const Resume = () => {
               Company: {"AIM Institute"}
             </code>
             <br />
-            <code className="text-xs text-brown_vs">• Jan 2020 - Present</code>
+            <code className="text-xs text-brown_vs">• Jan 2020 - July 2022</code>
             <br/>
                   
           
