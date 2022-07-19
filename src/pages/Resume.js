@@ -143,7 +143,7 @@ const Resume = () => {
         </div>
         <div className="w-full ml-40">
         <button className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">
-          <a href="https://drive.google.com/file/d/1CJWOYyJ3HIZlVeHrj2FOKPhy3yRGnUWG/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1P9CBHabdwbFaz2wr4v7JBZn5Hen29ewf/view?usp=sharing">
             <code>Download Resume</code>
           </a>
         </button>
