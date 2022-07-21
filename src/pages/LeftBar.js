@@ -33,7 +33,7 @@ const LeftBar = () => {
             alt="TS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p><a href="https://citycoins.netlify.app/">Second Project</a></p>
+          <p><a href="https://citycoins.netlify.app/">Front-End CityCoins</a></p>
         </div>
       </a>
       <a href="/">
