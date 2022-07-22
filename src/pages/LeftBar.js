@@ -33,7 +33,7 @@ const LeftBar = () => {
             alt="TS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p><a href="https://citycoins.netlify.app/">Front-End CityCoins</a></p>
+          <p><a href="https://citycoins.netlify.app/">JavaScript</a></p>
         </div>
       </a>
       <a href="/">
@@ -43,7 +43,7 @@ const LeftBar = () => {
             alt="JS Icon"
             className="w-7 mr-1  ml-5 text-yellow_vs"
           />
-          <p><a href="https://react-ecommerce-basic.netlify.app/">ReactJS <br/> Basic eCommerce</a></p>
+          <p><a href="https://react-ecommerce-basic.netlify.app/">ReactJS</a></p>
         </div>
       </a>
       <a href="/">
