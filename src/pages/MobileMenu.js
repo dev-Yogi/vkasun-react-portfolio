@@ -12,7 +12,7 @@ import { Disclosure, Transition } from "@headlessui/react";
 
 const JSIcon = require("../assets/icons/JSIcon.png");
 const TSIcon = require("../assets/icons/TSIcon.png");
-const WordPressLogo = require("../assets/logos/WordPressLogo.png");
+//const WordPressLogo = require("../assets/logos/WordPressLogo.png");
 
 
 const MobileMenu = () => {
