@@ -18,8 +18,8 @@ const WordPressLogo = require("../assets/logos/WordPressLogo.png");
 const MobileMenu = () => {
   const projects = [
     {
-      name: "First Project",
-      href: "/",
+      name: "JavaScript",
+      href: "https://citycoins.netlify.app/",
       icon: <img
       src={WordPressLogo}
       alt="WordPress"
@@ -29,7 +29,7 @@ const MobileMenu = () => {
     },
     {
       name: "Second Project",
-      href: '',
+      href: 'https://react-ecommerce-basic.netlify.app/',
       icon:  <img
       src={TSIcon}
       alt="TS Icon"
