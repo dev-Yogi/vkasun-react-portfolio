@@ -23,7 +23,7 @@ const Resume = () => {
       <div className="text-[#a2aabc] text-lg mt-5">
         <div className="flex flex-row">
           <div className="w-1/4">
-            <code className="text-yellow_vs mr-12">Education</code>
+            <code className="text-yellow_vs mr-15">Education</code>
           </div>
           <div className="w-3/4">
             <code className="text-blue_vs">Metropolitan Community College</code>
