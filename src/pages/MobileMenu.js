@@ -21,7 +21,7 @@ const MobileMenu = () => {
       name: "JavaScript",
       href: "https://citycoins.netlify.app/",
       icon: <img
-      src={WordPressLogo}
+      src={JSIcon}
       alt="WordPress"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
