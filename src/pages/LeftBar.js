@@ -46,7 +46,7 @@ const LeftBar = () => {
           <p><a href="https://react-ecommerce-basic.netlify.app/">ReactJS</a></p>
         </div>
       </a>
-      <a href="/">
+      <a href="https://apple-mart-mock.netlify.app/">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] ml-12 w-60">
           <img
             src={JSIcon}

@@ -39,7 +39,7 @@ const MobileMenu = () => {
     },
     {
       name: "Third Project",
-      href: "#",
+      href: "https://apple-mart-mock.netlify.app/",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
